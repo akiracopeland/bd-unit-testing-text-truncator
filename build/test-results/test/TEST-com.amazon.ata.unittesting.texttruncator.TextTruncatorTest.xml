@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-23T17:30:50" hostname="Jamies-MacBook-Pro.local" time="0.023">
+<testsuite name="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-08-10T04:45:05" hostname="DESKTOP-HRH8VKH" time="0.044">
   <properties/>
-  <testcase name="truncateTo_stringLongerThanNumChars_shortensToFirstNumChars()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.023"/>
+  <testcase name="truncateTo_givenNullString_returnsEmptyString()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.04"/>
+  <testcase name="truncateTo_stringLongerThan_toProperLength()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.0"/>
+  <testcase name="truncateTo_stringLongerThanNumChars_shortensToFirstNumChars()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.001"/>
+  <testcase name="truncateTo_stringShorterThan_returnsOriginalString()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
